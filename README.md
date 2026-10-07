@@ -219,6 +219,8 @@ GitHub Pages相当の配信テストは`tests/e2e/pages.spec.ts`です。Viteの
 
 v0.8.1のローカル検証では、TypeScript・lint・整形・production build、単体236件、E2E 160件が成功しました。
 
+2026-10-07にGitHub Actionsから公開しました。公開URLで全20ツールの直接アクセスと、PC・スマートフォンの両テーマ、コピー、保存、Help、更新情報、オフラインでの画像保存・取り消しを確認済みです。CIではオフライン準備待ちのテスト1件が初回にタイムアウトし、自動再試行で成功しました。最終的な検証・公開ジョブは成功しています。
+
 プログラム・アイコンなどの静的ファイルだけを配信します。ユーザーが入力したファイルやテキストをGitHubへ送る処理はありません。service workerの範囲とキャッシュ名を公開先のパスごとに分け、同じドメイン上の別サイトのキャッシュを削除しない構成です。
 
 設定は[GitHub Pagesの公式手順](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)と[Viteの公開手順](https://vite.dev/guide/static-deploy.html#github-pages)に基づいています。
@@ -280,4 +282,4 @@ v0.7.1のHelp・更新情報には[標準のdialog要素](https://developer.mozi
 - `tool-registry.example.json`: 元の登録データ例
 - `PROMPT_FOR_CODEX.txt`: 元の実装指示
 
-TASKS.mdのPhase 0〜7を完了しています。公開先へのデプロイは実施していません。
+TASKS.mdのPhase 0〜7を完了し、GitHub Pagesで公開しています。

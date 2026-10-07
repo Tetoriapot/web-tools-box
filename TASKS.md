@@ -1,6 +1,6 @@
 # TASKS FOR CODEX
 
-## NOW: GitHub Pagesへの公開（2026-10-07）
+## DONE: GitHub Pagesへの公開（2026-10-07）
 
 - [x] 公開用パスに対応し、各ツールのURL直アクセスと再読み込みを維持
 - [x] manifest・service workerの範囲とキャッシュを公開先のパスごとに分離
@@ -8,9 +8,11 @@
 - [x] TypeScript・lint・単体テスト・production build・既存機能の回帰確認
 - [x] GitHub Pages相当の静的配信でURL直アクセス・画像保存・オフライン・両テーマを確認
 - [x] README・更新情報・文面を更新し、yomiyasuで確認
-- [ ] GitHubへ反映し、公開URLで主要操作を確認
+- [x] GitHubへ反映し、公開URLで主要操作を確認
 
 ローカル検証はTypeScript・lint・整形・production buildが成功。単体236件、E2E 160件が成功しています。
+
+公開先は https://tetoriapot.github.io/web-tools-box/ 。全20ツールの直接アクセス、PC・スマートフォンの両テーマ、コピー・保存、Help・更新情報、オフライン画像保存・取り消しを確認しました。CIはオフライン準備待ちの1件が初回タイムアウト後の再試行で成功し、検証・公開ジョブともに成功しています。
 
 ## Phase 0: 初期化
 
