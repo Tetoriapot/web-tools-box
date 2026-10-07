@@ -1,0 +1,17 @@
+.small {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.small > div {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+.small canvas {
+  background: repeating-conic-gradient(#ddd 0% 25%, #fff 0% 50%) 50% / 8px 8px;
+}
+.small span {
+  color: var(--muted);
+  font-size: 14px;
+}

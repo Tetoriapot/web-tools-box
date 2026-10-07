@@ -1,0 +1,52 @@
+.readout {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 18px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.readout output {
+  font: 600 24px var(--mono);
+  color: var(--accent);
+}
+.stage {
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  overflow: hidden;
+}
+.stage p {
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.endpoints {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  margin: 18px 0 0;
+}
+.endpoints dt {
+  color: var(--muted);
+}
+.endpoints dd {
+  margin: 4px 0 0;
+  font: 15px var(--mono);
+}
+@media (max-width: 560px) {
+  .readout {
+    flex-wrap: wrap;
+  }
+  .readout output {
+    font-size: 21px;
+  }
+}

@@ -1,0 +1,28 @@
+.checker {
+  border: 1px solid #b9c4be;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  background-image: conic-gradient(#e1e7e3 25%, #fff 0 50%, #e1e7e3 0 75%, #fff 0);
+  background-size: 20px 20px;
+}
+.preview {
+  display: grid;
+  place-items: center;
+  min-height: 350px;
+  background-repeat: repeat;
+  color: #36473c;
+}
+.preview > span {
+  background: #fff;
+  border: 1px solid #b9c4be;
+  border-radius: 6px;
+  padding: 12px;
+  margin: 12px;
+  font-size: 14px;
+}
+@media (max-width: 560px) {
+  .preview {
+    min-height: 280px;
+  }
+}

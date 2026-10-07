@@ -1,0 +1,7 @@
+[
+  {"id":"screenshot-decorator","slug":"screenshot-decorator","name":"Screenshot Decorator","description":"スクリーンショットを整えて画像として保存","category":"image","localOnly":true,"keywords":["screenshot","image","mockup"],"status":"planned"},
+  {"id":"code-shot","slug":"code-shot","name":"Code Shot","description":"コードや文章を見栄えの良い画像へ","category":"image","localOnly":true,"keywords":["code","image"],"status":"planned"},
+  {"id":"json-visualizer","slug":"json-visualizer","name":"JSON Visualizer","description":"JSONを整形・検証・ツリー表示","category":"data","localOnly":true,"keywords":["json","tree","format"],"status":"planned"},
+  {"id":"favicon-maker","slug":"favicon-maker","name":"Favicon Maker","description":"favicon一式をまとめて生成","category":"image","localOnly":true,"keywords":["favicon","icon"],"status":"planned"},
+  {"id":"svg-background-maker","slug":"svg-background-maker","name":"SVG Background Maker","description":"SVG背景パターンを生成","category":"svg-css","localOnly":true,"keywords":["svg","background","pattern"],"status":"planned"}
+]

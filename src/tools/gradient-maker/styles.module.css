@@ -1,0 +1,90 @@
+.stops {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.stop {
+  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+}
+.stopHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.stopHeader > div {
+  min-width: 0;
+  flex: 1;
+}
+.stopHeader > button {
+  padding-inline: 9px;
+  align-self: center;
+}
+.stop :global(.field) {
+  margin-bottom: 10px;
+}
+.stop :global(.slider-field) {
+  margin-bottom: 0;
+}
+.stop :global(.slider-label label) {
+  font-size: 12px;
+  font-weight: 400;
+}
+.preview {
+  min-height: 330px;
+  border: 1px solid #adbab7;
+  border-radius: 8px;
+  position: relative;
+  background-color: #f4f4f4;
+}
+.previewLabel {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  background: #fff;
+  border: 1px solid #adbab7;
+  border-radius: 4px;
+  color: #45544b;
+  padding: 5px 9px;
+  font: 10px var(--mono);
+  letter-spacing: 1px;
+}
+.presets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.presets button {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 5px;
+  border-radius: 6px;
+  color: var(--text);
+  min-height: 68px;
+  font-size: 11px;
+}
+.presets button > span:first-child {
+  display: block;
+  height: 30px;
+  border-radius: 3px;
+  margin-bottom: 4px;
+}
+.presets button:hover {
+  border-color: var(--accent);
+}
+.errorOverlay {
+  display: grid;
+  place-items: center;
+  height: 330px;
+  color: #555;
+}
+@media (max-width: 560px) {
+  .presets {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .preview {
+    min-height: 260px;
+  }
+}

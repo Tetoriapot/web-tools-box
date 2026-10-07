@@ -1,0 +1,31 @@
+.zone {
+  border: 1px dashed var(--muted);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  background: var(--surface-muted);
+}
+.zone label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.zone input {
+  width: 100%;
+  min-width: 0;
+  font-size: 14px;
+}
+.zone input::file-selector-button {
+  padding: 10px 12px;
+  min-height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  background: var(--surface);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.dragging {
+  outline: 2px solid var(--focus);
+}

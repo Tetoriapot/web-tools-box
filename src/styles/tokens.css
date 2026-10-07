@@ -1,0 +1,36 @@
+:root {
+  font-family:
+    'Inter', 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif;
+  color-scheme: light;
+  --bg: #f7f8f7;
+  --surface: #ffffff;
+  --surface-muted: #eef1ef;
+  --text: #222d29;
+  --muted: #606d66;
+  --border: #cbd3cd;
+  --accent: #196b54;
+  --accent-hover: #10513f;
+  --accent-soft: #e4f0e9;
+  --on-accent: #ffffff;
+  --danger: #ac3037;
+  --danger-bg: #fff0f0;
+  --focus: #087cba;
+  --radius: 12px;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #161c19;
+  --surface: #1e2621;
+  --surface-muted: #29332c;
+  --text: #eff4ef;
+  --muted: #b0bdb4;
+  --border: #4c5c51;
+  --accent: #96d9b5;
+  --accent-hover: #b6eaca;
+  --accent-soft: #283e31;
+  --on-accent: #14291d;
+  --danger: #ffaaaa;
+  --danger-bg: #402729;
+  --focus: #88d3ff;
+}

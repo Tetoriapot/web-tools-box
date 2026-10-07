@@ -1,0 +1,44 @@
+.axis {
+  border: 0;
+  padding: 0;
+  margin: 24px 0 12px;
+  min-width: 0;
+}
+.axis legend {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.sliders {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 20px;
+}
+.sliders label {
+  font-size: 12px;
+}
+.stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  place-items: center;
+  min-height: 350px;
+  padding: 35px;
+  border: 1px solid #b9c4be;
+  background: #eef1ef;
+  border-radius: 8px;
+}
+.shape {
+  width: 250px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  background: #7d9f8a;
+  border: 1px solid #526f5d;
+}
+@media (max-width: 560px) {
+  .stage {
+    min-height: 280px;
+  }
+  .sliders {
+    gap: 5px 14px;
+  }
+}

@@ -1,0 +1,14 @@
+node_modules
+dist
+.cache
+coverage
+test-results
+playwright-report
+package-lock.json
+pnpm-lock.yaml
+PRODUCT_SPEC.md
+UI_SPEC.md
+TECH_SPEC.md
+TOOLS_20.md
+FILE_STRUCTURE.md
+tool-registry.example.json

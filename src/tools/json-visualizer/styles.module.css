@@ -1,0 +1,67 @@
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.tree {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 580px;
+  overflow: auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 52px;
+  border-bottom: 1px solid var(--border);
+}
+.value {
+  flex: 1;
+  min-width: 0;
+  padding-block: 6px;
+}
+.key,
+.branch {
+  display: block;
+  overflow-wrap: anywhere;
+  font-family: var(--mono);
+  font-size: 14px;
+}
+.key {
+  padding-block: 4px;
+}
+.branch {
+  border: 0;
+  min-width: 44px;
+  max-width: 100%;
+  color: var(--text);
+  background: none;
+  text-align: left;
+  min-height: 44px;
+  cursor: pointer;
+  padding: 0 8px 0 0;
+}
+.branch:disabled {
+  cursor: default;
+}
+.summary {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+.path {
+  flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--accent);
+  cursor: pointer;
+}
